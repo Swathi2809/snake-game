@@ -70,9 +70,10 @@ const initgame = () => {
 
   for (let i = 0; i < snakebody.length; i++) {
     htmlMarkup += `<div class="head" style="grid-area:${snakebody[i][1]} / ${snakebody[i][0]}"></div>`;
-    if ( i !==0 && snakebody[0][1] === snakebody[i][0] && snakebody[0][0] === snakebody[i][1]){
-        gameover=true;
-    }
+    if (i !== 0 && snakebody[0][0] === snakebody[i][0] && snakebody[0][1] === snakebody[i][1]) {
+    gameover = true;
+}
+
 
 
   }
