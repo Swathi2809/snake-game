@@ -42,7 +42,7 @@ script.js # JavaScript game logic
 ---
 
 ## 👩‍💻 **Author**
-**Swathi **  
+**Swathi**  
 - GitHub: [Swathi2809](https://github.com/Swathi2809)  
 
 ---
